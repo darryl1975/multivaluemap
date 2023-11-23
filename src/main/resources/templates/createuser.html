@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <form method="POST" action="/user">
+    <!-- action="/users/user" -->
+    <form method="POST" th:action="@{/users/user}">
         <input placeholder="name" type="text" name="name">
         <br />
         <input placeholder="email" type="email" name="email">
